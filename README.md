@@ -30,7 +30,20 @@ https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-
 # Markdown syntax
 https://www.markdownguide.org/basic-syntax/
 https://www.markdownguide.org/cheat-sheet/
-| element | syntax | example |
-| --- | --- | |
-| code | \`example\` | `example` |
-| h1 | # heading | | 
+| element | syntax | example | info |
+| --- | --- | --- | --- |
+| code | \`code\` | `code` | |
+| h1 | # heading 1 | | |
+| h2 | ## heading 2 | | |
+| h3 | ### heading 3 | | |
+| h4 | #### heading 4 | | |
+| h5 | ##### heading 5 | | |
+| h6 | ###### heading 6 | | |
+| italic | \*italic\* | *italic* | |
+| bold | \*\*bold\*\* | **bold** | |
+| blockquote | \> blockquote | > blockquote | Can be nested. Use \> on empty line to create paragraphs |
+| ordered list | n. First item \ n. Second item \ n. Third item | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
+| unordered list | - First item \ - Second item \ - Third item | Can be nested with indent (four spaces or tab). |
+| images | \![Name of image](/path/to/image.png) | ![Name of image](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png) | |
+| | | |
+
