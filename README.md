@@ -12,15 +12,14 @@
 
 | name/info | PS1 |
 | --- | --- |  
-| old/default | \\[\e]0;\u@\h: \w\a\\]${debian_chroot:+($debian_chroot)}\\[\033[01;32m\\]\u@\h\\[\033[00m\\]:\\[\033[01;34m\\]\w\\[\033[00m\\]\\$ |
+| old/default | `\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$` |
 | --- | --- |
 
-> Every backslash \\ must be escaped manually in pasted PS1 when the backslash attempts to escape a special character.
 
 ## Import file if exists
-```if [ -f $HOME/.some_file ]; then
-    . $HOME/.some_file
-fi```
+`if [ -f $HOME/.some_file ]; then <br>
+    . $HOME/.some_file <br>
+fi`
 
 
 
