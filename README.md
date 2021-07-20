@@ -1,6 +1,5 @@
 # PS1 generators:
-
-> customize terminal prompt for Unix systems
+> Customize terminal prompt for Unix systems
 
 - http://bashrcgenerator.com/
 - https://ezprompt.net/
@@ -14,10 +13,7 @@
 | old/default | \\[\e]0;\u@\h: \w\a\\]${debian_chroot:+($debian_chroot)}\\[\033[01;32m\\]\u@\h\\[\033[00m\\]:\\[\033[01;34m\\]\w\\[\033[00m\\]\\$ |
 | | |
 | | |
-| | |
-| | |
-> every backslash \\ must be escaped manually in pasted PS1 when the backslash attempts to escape a special character.
-
+> Every backslash \\ must be escaped manually in pasted PS1 when the backslash attempts to escape a special character.
 
 # Useful directories:
 
@@ -34,6 +30,7 @@
 | ~/.zshrc | `rc` for Z Shell. |
 | ~/.mkshrc | `rc` for MirBSD Korn Shell. |
 | ~/.ssh | Location of public key encryption key-pairs and config. |
+| | |
 
 
 
@@ -43,7 +40,6 @@
 - https://www.markdownguide.org/cheat-sheet/
 
 | element | syntax | example | info |
-| --- | --- | --- | --- |
 | code | \`code\` | `code` | |
 | h1 | # heading 1 | | |
 | h2 | ## heading 2 | | |
@@ -54,7 +50,7 @@
 | italic | \*italic\* | *italic* | |
 | bold | \*\*bold\*\* | **bold** | |
 | blockquote | \> blockquote | | Can be nested. Use \> on empty line to create paragraphs |
-| ordered list | n. First item <br> n. Second item <br> n. Third item | | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
+| ordered list | n. First item <br> n. Second item <br> n. Third item | 1. First item <br> 2. Second item <br> 3. Third item | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
 | unordered list | - First item <br> - Second item <br> - Third item | | Can be nested with indent (four spaces or tab). |
 | images | \!\[Name of image\]\(/path/to/image.png\) | ![Name of image](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png) | |
 | hr | \-\-\- | | |
