@@ -2,10 +2,10 @@
 
 > Customize terminal prompt for Unix systems
 
-- http://bashrcgenerator.com/
-- https://ezprompt.net/
-- https://scriptim.github.io/bash-prompt-generator/
-- https://omar.io/ps1gen/
+1. https://scriptim.github.io/bash-prompt-generator/ (my favourite)
+2. http://bashrcgenerator.com/
+3. https://ezprompt.net/
+4. https://omar.io/ps1gen/
 
 
 # My PS1:
@@ -15,12 +15,20 @@
 | old/default | `\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$` |
 | --- | --- |
 
+`\[\e[0m\][\[\e[0m\]\t\[\e[0m\]] \[\e[0;92m\]\u\[\e[0m\]:\[\e[0;94m\]\w \[\e[0m\](\[\e[0;96m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2)\[\e[0m\]) \[\e[0m\]$ \[\e[0m\]`
+
 
 ## Import file if exists
 `if [ -f $HOME/.some_file ]; then <br>
     . $HOME/.some_file <br>
 fi`
 
+
+# LS_COLORS
+
+- https://geoff.greer.fm/lscolors/
+
+`LS_COLORS=di=34:ln=36:so=0:pi=0:ex=31:bd=0:cd=0:su=0:sg=0:tw=0:ow=0`
 
 
 # Useful directories:
@@ -40,7 +48,9 @@ fi`
 | ~/.ssh | Location of public key encryption key-pairs and config. |
 | --- | --- |
 
----
+
+
+
 
 # Markdown syntax
 
