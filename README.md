@@ -9,18 +9,21 @@
 
 
 # My PS1:
-| prompt | info |
+| name/info | PS1 |
 | --- | --- |  
-| \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ | old/default prompt |
+| old/default | \\[\e]0;\u@\h: \w\a\\]${debian_chroot:+($debian_chroot)}\\[\033[01;32m\\]\u@\h\\[\033[00m\\]:\\[\033[01;34m\\]\w\\[\033[00m\\]\\$ |
 | | |
 | | |
 | | |
 | | |
+> every backslash \\ must be escaped manually in pasted PS1 when the backslash attempts to escape a special character.
+
 
 # Useful directories:
-https://www.stefaanlippens.net/bashrc_and_others/
-https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/
-https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-bashrc-d4c902ac7308
+
+- https://www.stefaanlippens.net/bashrc_and_others/
+- https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/
+- https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-bashrc-d4c902ac7308
 
 | path | info |
 |---|---|
@@ -36,9 +39,8 @@ https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-
 
 # Markdown syntax
 
-https://www.markdownguide.org/basic-syntax/
-
-https://www.markdownguide.org/cheat-sheet/
+- https://www.markdownguide.org/basic-syntax/
+- https://www.markdownguide.org/cheat-sheet/
 
 | element | syntax | example | info |
 | --- | --- | --- | --- |
