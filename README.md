@@ -18,9 +18,9 @@
 > Every backslash \\ must be escaped manually in pasted PS1 when the backslash attempts to escape a special character.
 
 ## Import file if exists
-`if [ -f $HOME/.some_file ]; then
+```if [ -f $HOME/.some_file ]; then
     . $HOME/.some_file
-fi`
+fi```
 
 
 
