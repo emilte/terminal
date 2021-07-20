@@ -1,4 +1,5 @@
 # PS1 generators:
+
 > Customize terminal prompt for Unix systems
 
 - http://bashrcgenerator.com/
@@ -8,11 +9,12 @@
 
 
 # My PS1:
+
 | name/info | PS1 |
 | --- | --- |  
 | old/default | \\[\e]0;\u@\h: \w\a\\]${debian_chroot:+($debian_chroot)}\\[\033[01;32m\\]\u@\h\\[\033[00m\\]:\\[\033[01;34m\\]\w\\[\033[00m\\]\\$ |
-| | |
-| | |
+| --- | --- |
+
 > Every backslash \\ must be escaped manually in pasted PS1 when the backslash attempts to escape a special character.
 
 # Useful directories:
@@ -22,7 +24,7 @@
 - https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-bashrc-d4c902ac7308
 
 | path | info |
-|---|---|
+| --- | --- |
 | ~/.bashrc | `rc` for Bash. .bashrc is executed for interactive non-login shells. But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal. <br> .bashrc is for the configuring the interactive Bash usage, like Bash aliases, setting your favorite editor, setting the Bash prompt, etc. |
 | ~/.bash_profile | .bash_profile is for making sure that both the things in .profile and .bashrc are loaded for login shells. |
 | ~/.profile | .profile is for things that are not specifically related to Bash, like environment variables PATH and friends, and should be available anytime. For example, .profile should also be loaded when starting a graphical desktop session. |
@@ -30,8 +32,7 @@
 | ~/.zshrc | `rc` for Z Shell. |
 | ~/.mkshrc | `rc` for MirBSD Korn Shell. |
 | ~/.ssh | Location of public key encryption key-pairs and config. |
-| | |
-
+| --- | --- |
 
 
 # Markdown syntax
@@ -58,7 +59,4 @@
 | links | \[Name of link\]\(url\ \"Tooltip on hover\") | [Jump to #My PS1](#my-ps1 "Tooltip for My PS1 header") | |
 | email or link | \<url\> <br> \<email\> | <jon.doe@gmail.com> | |
 | newline | \<br\> | Hello <br> World | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| --- | --- | --- | --- |
