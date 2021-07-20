@@ -45,5 +45,11 @@ https://www.markdownguide.org/cheat-sheet/
 | ordered list | n. First item \ n. Second item \ n. Third item | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
 | unordered list | - First item \ - Second item \ - Third item | Can be nested with indent (four spaces or tab). |
 | images | \![Name of image](/path/to/image.png) | ![Name of image](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png) | |
-| | | |
-
+| hr | \-\-\- | --- | |
+| links | \[Name of link\]\(url\ \"Tooltip on hover\") | | |
+| email or link | \<url/email\> | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
