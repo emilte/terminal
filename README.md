@@ -22,6 +22,6 @@ https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-
 | ~/.profile | .profile is for things that are not specifically related to Bash, like environment variables PATH and friends, and should be available anytime. For example, .profile should also be loaded when starting a graphical desktop session. |
 | ~/.bash_logout | Executed commands when logging out of terminal |
 | ~/.zshrc | ´rc´ for Z Shell. |
-| ~/.mkshrc | 'rc' for MirBSD Korn Shell |
+| ~/.mkshrc | 'rc' `rc` for MirBSD Korn Shell |
 | ~/.ssh | Location of public key encryption key-pairs and config. |
 
