@@ -1,5 +1,7 @@
 # PS1 generators:
-customize terminal prompt for Unix systems
+
+> customize terminal prompt for Unix systems
+
 - http://bashrcgenerator.com/
 - https://ezprompt.net/
 - https://scriptim.github.io/bash-prompt-generator/
@@ -7,8 +9,13 @@ customize terminal prompt for Unix systems
 
 
 # My PS1:
-old/default prompt: 
-
+| prompt | info |
+| --- | --- |  
+| \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ | old/default prompt |
+| | |
+| | |
+| | |
+| | |
 
 # Useful directories:
 https://www.stefaanlippens.net/bashrc_and_others/
@@ -28,8 +35,11 @@ https://medium.com/@kingnand.90/what-is-the-difference-between-bash-profile-and-
 
 
 # Markdown syntax
+
 https://www.markdownguide.org/basic-syntax/
+
 https://www.markdownguide.org/cheat-sheet/
+
 | element | syntax | example | info |
 | --- | --- | --- | --- |
 | code | \`code\` | `code` | |
@@ -42,13 +52,13 @@ https://www.markdownguide.org/cheat-sheet/
 | italic | \*italic\* | *italic* | |
 | bold | \*\*bold\*\* | **bold** | |
 | blockquote | \> blockquote | | Can be nested. Use \> on empty line to create paragraphs |
-| ordered list | n. First item &nbsp; n. Second item <br/> n. Third item | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
-| unordered list | - First item   - Second item <br> - Third item | Can be nested with indent (four spaces or tab). |
+| ordered list | n. First item <br/> n. Second item <br/> n. Third item | | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
+| unordered list | - First item <br/> - Second item <br> - Third item | | Can be nested with indent (four spaces or tab). |
 | images | \!\[Name of image\]\(/path/to/image.png\) | ![Name of image](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png) | |
 | hr | \-\-\- | | |
-| links | \[Name of link\]\(url\ \"Tooltip on hover\") | [Jump to #My PS1](#My%20PS1 "Tooltip for PS1 header") | |
-| email or link | \<url/email\> | <jon.doe@gmail.com> | |
-| | | | |
+| links | \[Name of link\]\(url\ \"Tooltip on hover\") | [Jump to #My PS1](#my-ps1 "Tooltip for PS1 header") | |
+| email or link | \<url\> <br> \<email\> | <jon.doe@gmail.com> | |
+| newline | \<br\> | <br> | |
 | | | | |
 | | | | |
 | | | | |
