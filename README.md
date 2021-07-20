@@ -40,6 +40,7 @@
 - https://www.markdownguide.org/cheat-sheet/
 
 | element | syntax | example | info |
+| --- | --- | --- | --- |
 | code | \`code\` | `code` | |
 | h1 | # heading 1 | | |
 | h2 | ## heading 2 | | |
@@ -50,7 +51,7 @@
 | italic | \*italic\* | *italic* | |
 | bold | \*\*bold\*\* | **bold** | |
 | blockquote | \> blockquote | | Can be nested. Use \> on empty line to create paragraphs |
-| ordered list | n. First item <br> n. Second item <br> n. Third item | 1. First item <br> 2. Second item <br> 3. Third item | n is arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
+| ordered list | n. First item <br> n. Second item <br> n. Third item | 1. First item <br> 2. Second item <br> 3. Third item | n is an arbitrary number, the rendered output will be sorted either way. Can be nested with indent (four spaces or tab). |
 | unordered list | - First item <br> - Second item <br> - Third item | | Can be nested with indent (four spaces or tab). |
 | images | \!\[Name of image\]\(/path/to/image.png\) | ![Name of image](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png) | |
 | hr | \-\-\- | | |
