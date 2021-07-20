@@ -8,28 +8,31 @@
 4. https://omar.io/ps1gen/
 
 
-# My PS1:
+## My PS1:
 
-old/default: <br>
-`PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'`
+```bash
+# old/default:
+PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$'
+```
 
 
-datetime username: pwd git-branch $ <br>
-`PS1='\[\e[0m\][\[\e[0m\]\t\[\e[0m\]] \[\e[0;92m\]\u\[\e[0m\]:\[\e[0;94m\]\w \[\e[0;96m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2) \[\e[0m\]$ \[\e[0m\]'`
-
+```bash
+# datetime username: pwd git-branch $ <br>
+PS1='\[\e[0m\][\[\e[0m\]\t\[\e[0m\]] \[\e[0;92m\]\u\[\e[0m\]:\[\e[0;94m\]\w \[\e[0;96m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2) \[\e[0m\]$ \[\e[0m\]'
+```
 
 ## Import file if exists
-`if [ -f $HOME/.some_file ]; then`
-`    . $HOME/.some_file`
-`fi`
+```bash
+if [ -f $HOME/.some_file ]; then
+    . $HOME/.some_file
+fi
+```
 
 
 # LS_COLORS
 
 - https://geoff.greer.fm/lscolors/
 - http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors
-
-## Styles
 
 | Code | Meaning |
 | --- | --- |
@@ -83,7 +86,7 @@ datetime username: pwd git-branch $ <br>
 | fi | (FILE) Normal file |
 | ln | (SYMLINK, LINK, LNK)   Symbolic link. If you set this to ‘target’ instead of a | numerical value, the color is as for the file pointed to.
 | mi | (MISSING)  Non-existent file pointed to by a symbolic link (visible when you type | ls -l)
-| no | (NORMAL, NORM) Normal (non-filename) text. Global default, although everything | should be something
+| no | (NORMAL, NORM) Normal (non-filename) text. Global default, although everything should be something |
 | or | (ORPHAN)   Symbolic link pointing to an orphaned non-existent file |
 | ow | (OTHER_WRITABLE)   Directory that is other-writable (o+w) and not sticky |
 | pi | (FIFO, PIPE)   Named pipe (fifo file) |
