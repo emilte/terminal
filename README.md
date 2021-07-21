@@ -98,15 +98,16 @@ fi
 | *.extension | Every file using this extension e.g. *.rpm = files with the ending .rpm |
 
 
-Emils favorite:
-```bash
-EMIL_LS_COLORS=":di=94:"
-```
 
-> copy/paste into ~/.bashrc
 
 
 ## Usage
+Format is 'keyword=style;fg;bg' separated by colon :  
+
+### Emils favorite:
+```bash
+EMIL_LS_COLORS=":di=94:"
+```
 
 ### Allow for dynamic change of colors
 ```bash
@@ -130,6 +131,7 @@ EMIL_LS_COLORS=":di=94:"
 CURRENT_LS_COLORS=EMIL_LS_COLORS
 LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
 ```
+> copy/paste into ~/.bashrc
 
 # Useful directories:
 
