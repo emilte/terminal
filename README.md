@@ -155,6 +155,7 @@ LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
 
 - https://www.geeksforgeeks.org/unix-file-system/
 
+![Unix filesystem](https://media.geeksforgeeks.org/wp-content/cdn-uploads/unix.png)
 
 | path | info |
 | --- | --- |
