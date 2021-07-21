@@ -107,15 +107,27 @@ EMIL_LS_COLORS=":di=94:"
 
 
 ## Usage
+
+### Allow for dynamic change of colors
 ```bash
 CURRENT_LS_COLORS=... # e.g. EMIL_LS_COLORS
 ```
+
+### Extend current LS_COLORS
 ```bash
-# extend current LS_COLORS
 LS_COLORS="${LS_COLORS}:${CURRENT_LS_COLORS}:" ; export LS_COLORS
 ```
+
+### Set new LS_COLORS 
 ```bash
-# set new LS_COLORS 
+LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
+```
+
+### Complete example
+```bash
+# LS_COLORS:
+EMIL_LS_COLORS=":di=94:"
+CURRENT_LS_COLORS=EMIL_LS_COLORS
 LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
 ```
 
