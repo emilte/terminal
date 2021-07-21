@@ -102,7 +102,7 @@ fi
 
 
 ## Usage
-Format is 'keyword=style;fg;bg' separated by colon :  
+Format is `keyword=style;fg;bg` separated by colon `:`.  
 
 ### Emils favorite:
 ```bash
@@ -128,7 +128,7 @@ LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
 ```bash
 # LS_COLORS:
 EMIL_LS_COLORS=":di=94:"
-CURRENT_LS_COLORS=EMIL_LS_COLORS
+CURRENT_LS_COLORS=$EMIL_LS_COLORS
 LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
 ```
 > copy/paste into ~/.bashrc
@@ -142,8 +142,8 @@ LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
 | path | info |
 | --- | --- |
 | ~/.bashrc | `rc` for Bash. .bashrc is executed for interactive non-login shells. But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal. <br> .bashrc is for the configuring the interactive Bash usage, like Bash aliases, setting your favorite editor, setting the Bash prompt, etc. |
-| ~/.bash_profile | .bash_profile is for making sure that both the things in .profile and .bashrc are loaded for login shells. |
 | ~/.profile | .profile is for things that are not specifically related to Bash, like environment variables PATH and friends, and should be available anytime. For example, .profile should also be loaded when starting a graphical desktop session. |
+| ~/.bash_profile | .bash_profile is for making sure that both the things in .profile and .bashrc are loaded for login shells. |
 | ~/.bash_logout | Executed commands when logging out of terminal. |
 | ~/.zshrc | `rc` for Z Shell. |
 | ~/.mkshrc | `rc` for MirBSD Korn Shell. |
