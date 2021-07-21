@@ -97,11 +97,27 @@ fi
 | tw | (STICKY_OTHER_WRITABLE)    Directory that is sticky and other-writable (+t,o+w) |
 | *.extension | Every file using this extension e.g. *.rpm = files with the ending .rpm |
 
+
 Emils favorite:
 ```bash
-LS_COLORS=$LS_COLORS:'di=91' ; export LS_COLORS
+EMIL_LS_COLORS=":di=94:"
 ```
 
+> copy/paste into ~/.bashrc
+
+
+## Usage
+```bash
+CURRENT_LS_COLORS=... # e.g. EMIL_LS_COLORS
+```
+```bash
+# extend current LS_COLORS
+LS_COLORS="${LS_COLORS}:${CURRENT_LS_COLORS}:" ; export LS_COLORS
+```
+```bash
+# set new LS_COLORS 
+LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
+```
 
 # Useful directories:
 
