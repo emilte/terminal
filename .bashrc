@@ -1,0 +1,8 @@
+echo "Sourcing ~/.bashrc"
+
+# LS_COLORS:
+EMIL_LS_COLORS=":di=94:"
+CURRENT_LS_COLORS=$EMIL_LS_COLORS
+LS_COLORS="${CURRENT_LS_COLORS}:" ; export LS_COLORS
+
+export HISTCONTROL=ignoredups

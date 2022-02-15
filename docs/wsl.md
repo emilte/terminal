@@ -16,4 +16,3 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec
 search `credential manager` in windows
 
 add Personal Access Token (PAT) to credential manager
-
